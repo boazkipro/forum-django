@@ -23,7 +23,7 @@ from forum import views
 urlpatterns = [
 	url(r'^index/$', views.BoardListView.as_view(), name='home'),
 	url(r'^signup/$', accounts_views.signup, name='signup'),
-	url(r'^login/$', auth_views.login, {'template_name': 'core/login.html'}, name='login'),
+	url(r'^login/$', auth_views.login, {'template_name': 'login.html'}, name='login'),
 	url(r'^logout/$', auth_views.logout, name='logout'),
 	url(r'^boards/(?P<pk>\d+)/$', views.board_topics, name='board_topics'),
 	url(r'^boards/(?P<pk>\d+)/new/$', views.new_topic, name='new_topic'),  
