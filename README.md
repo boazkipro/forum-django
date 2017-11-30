@@ -6,19 +6,35 @@
 
 ## Major Features
 ```bash
-Login
-```
-
-'''bash
-Logout
+1. Login
 ```
 
 ```bash
-Signup
+2. Logout
 ```
 
 ```bash
-URL Configuration
+3. Signup
+```
+
+```bash
+4. URL Configuration
+```
+
+```bash
+5. Humanize
+```
+
+```bash
+6. Pagination
+```
+
+```bash
+7. Account Management
+```
+
+```bash
+8. Static Files, and templates.
 ```
 
 ## Running the Project Locally
