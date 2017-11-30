@@ -69,5 +69,5 @@ urlpatterns = [
 
     url(r'^boards/(?P<pk>\d+)/topics/(?P<topic_pk>\d+)/$', views.PostListView.as_view(), name='topic_posts'),
 
-    url(r'^settings/account/$', accounts_views.UserUpdateView.as_view(), name='my_accpunt'),
+    url(r'^settings/account/$', accounts_views.UserUpdateView.as_view(), name='my_account'),
 ]
