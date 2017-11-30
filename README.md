@@ -1,10 +1,25 @@
-# A Complete Beginner's Guide to Django
+# Exploring Django Features
 
 [![Python Version](https://img.shields.io/badge/python-3.6-brightgreen.svg)](https://python.org)
 [![Django Version](https://img.shields.io/badge/django-1.11-brightgreen.svg)](https://djangoproject.com)
 
 
-## Table of Contents
+## Major Features
+```bash
+Login
+```
+
+'''bash
+Logout
+```
+
+```bash
+Signup
+```
+
+```bash
+URL Configuration
+```
 
 ## Running the Project Locally
 
@@ -38,7 +53,5 @@ Finally, run the development server:
 python manage.py runserver
 ```
 
-The project will be available at **127.0.0.1:8000**.
+The project will be available at **127.0.0.1:8000/index**.
 
-
-## License
